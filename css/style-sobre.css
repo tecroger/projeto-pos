@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+      margin: 0;
+      padding: 0;
+      font-family: serif;
+      font-size: 62.5%; 
+  }
+  
+  body {
+    height: 100vh;
+    background-image: url(../imagens/Patter.jpg);
+      float: center;
+      overflow-x: hidden;
+
+  }
+
+  
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+.cabecalho{
+  background-image: url(../imagens/fundo-azul.jpg);
+  /*border: solid #000 1px;*/
+  width: 300%;
+  height: 20%;
+  display:flex
+  
+}
+
+.logo img {  
+  padding: 0;
+  width: 30%;
+  height: 100px;
+  margin-left: 300px;
+
+  /*background-color: transparent;*/
+  /*border: solid #000 1px;*/
+}
+
+
+.titulo{
+  margin-left: 50px;
+  padding: 2px;
+  width: 80%;
+  height: 100px;
+  margin-top: 20px;
+  width: 100vw;
+  /*background-color: aqua;
+  border: solid #000 1px;*/
+
+
+}
+
+.titulo p{
+  font-size: 4rem;
+  text-align:left;
+  margin-top: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}  
+ 
+h2{
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+h3 {
+	font-size: medium;
+}
+
+li {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+}
+
+.valor-principal{
+
+  display:flex;
+
+
+}
+.displayed{
+    width: 200px;
+}
+
+article h2{
+  font-size: 3rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: blue;
+  text-align: left;
+  
+}
+img{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  
+}
+
+ul li {
+	font-size: 1.6rem; /* equivalente a 16px */
+	width: 80%;
+	height: 3rem; /* equivalente a 30px */
+  margin: 2px;
+  margin-left: 20px;
+}
+
+p {
+	font-size: 2rem; /* equivalente a 16px */
+	font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+.navegacao {
+	padding: 2rem;
+	
+}
+
+.navegacao li {
+	display: block;
+
+
+}
+
+.navegacao a {
+	color: #66F;
+	display: block;
+	margin-bottom: 2.5rem;
+	
+}
+
+
+
+
+nav {
+  float: left;
+  width: 30%;
+  padding: 35px;
+  
+
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+
+  float: left;
+  padding: 80px;
+  width: 70%;
+
+}
+
+	
+footer p {
+	color: #eee;
+	font-size: 2rem;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer {
+  background-color: rgb(8, 8, 8);
+  padding: 5px;
+  text-align: center;
+  color: white;
+}
+
+
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+ 

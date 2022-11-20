@@ -1,0 +1,336 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  margin: 50px;
+  padding: 0;
+  font-family: serif;
+  font-size: 62.5%; /* equivalente a 10px */
+  }
+
+body {
+  justify-content: center;
+  min-width: 100vh;
+  position: relative;
+  height: 100vh;
+  background-image: url(../imagens/fundo-tecnologia-2.jpg);
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #000000;
+  float: center;
+  overflow-x: hidden; 
+}
+
+header{
+  justify-content: center;
+  min-width: 600px;
+  min-height: 50px;
+  width: 93vw;
+  filter: drop-shadow(5px 5px 10px #ffffff);
+
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+  width: 100vw;
+
+  }
+
+.redes-sociais:hover{
+  filter: grayscale(0%);
+}
+.cabecalho{
+  background-image: url(../imagens/fundo-azul.jpg);
+  border-radius: 20px;
+  width: 100%;
+  height: 20%;
+  display:flex
+  
+  
+  
+    
+}
+
+.logo {  
+  padding: 0;
+  width: 30%;
+  height: 100px;
+  /*background-color: transparent;*/
+  /*border: solid #000 1px;*/
+
+}
+img{
+  width: 100px;
+  float: right;
+}
+
+.titulo{
+  margin-left: 1rem;
+  padding: 0;
+  width: 80%;
+  height: 100px;
+  /*background-color: aqua;
+  border: solid #000 1px;*/
+
+}
+
+.titulo p{
+  font-size: 4rem;
+  text-align:left;
+  margin-top: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+  }
+h2{
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  text-align: center;
+  color: red;
+  
+}
+
+
+h3 {
+	font-size: medium;
+}
+
+li {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+}
+
+
+a {
+	color: rgba(15, 15, 17, 0.856);
+	text-decoration: none;
+}
+
+
+ul {
+	font-size: 20px;
+}
+
+ul li {
+	font-size: 0.8em; /* equivalente a 16px */
+	font-size: 1.6rem; /* equivalente a 16px */
+	width: 80%;
+	height: 3rem; /* equivalente a 30px */
+}
+
+p {
+	font-size: 2.5rem; /* equivalente a 16px */
+	font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #C0C0C0;
+  
+
+}
+
+.navegacao{
+  padding: 15px;
+  width: 90%;
+  min-width: 100px;
+  height: 400px;
+ 
+  
+  
+ /* border: solid #000 1px;*/
+  margin-bottom: 15px;
+ 
+
+}
+
+.caixa-titulo-1{
+  /*border: solid 1px #000000;*/
+  width: 200px;
+  height: 30px;
+  margin-bottom: 30px;
+  border-radius: 30%;
+ filter: drop-shadow(5px 5px 10px #fff);
+}
+
+.caixa-titulo-2{
+  /*border: solid 1px #000000;*/
+  width: 300px;
+  height: 30px;
+  margin-top: 40px;
+  border-radius: 30%;
+  filter: drop-shadow(5px 5px 10px #fff);
+}
+
+.redes-sociais img{
+  width: 40px;
+  margin: 10px;
+  float: left;
+
+}
+
+
+.redes-sociais ul{
+  float: left;
+  margin-left: 0;
+  margin-top: 10px;
+  
+}
+
+.filtro{
+  filter: grayscale(50%);
+}
+
+.filtro:hover{
+  
+  filter: grayscale(0%);
+}
+.redes-sociais h2{
+	margin-top: 100px;
+
+}
+
+.navegacao li {
+	display: block;
+	padding: 1rem 1rem 2rem 1rem;
+	line-height: 1.2rem;
+}
+
+.navegacao a {
+	color: blue;
+	display: block;
+	margin-bottom: 2.5rem;
+	width: 100%;
+	font-size: 2rem;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  min-width: 522px;
+  padding: 30px;
+  background-color:transparent ;
+  
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.video{
+   width: 30%;
+   margin-top: 10px;
+
+}
+.final{
+  display: inline-flex;
+}
+.parceiro{
+ /* border: solid 1px #000000;*/
+  background-color:transparent;
+  width: 250px;
+  height: 100px;
+  margin-left: 400px;
+  margin-top: 50px;
+
+}
+
+
+
+
+
+article {
+  background-color:transparent ;
+  float: left;
+  padding: 40px;
+  width: 50%;
+  display:flexbox;
+  
+}
+
+.titulo-foto-01{
+	/*background-color:rgb(11, 11, 224);*/
+	border: 1px #c0c0c0;
+	width: 70%;
+  display: block;
+}
+
+article p{
+	text-align:left;
+	padding: 20px;
+}
+
+.foto img{
+	width: 200px;
+  height: 200px;
+
+}
+.foto{
+  background-color: blue;
+  /*border: solid 1px #000000;*/
+  width: 200px;
+  height: 200px;
+  border-radius: 10%;
+  overflow: hidden;
+  filter: drop-shadow(10px 10px 15px blue);
+  
+
+}
+
+footer p {
+
+	color: #eee;
+	font-size: 1.5rem;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}	
+
+footer {
+  background-color: rgb(8, 8, 8);
+  padding: 10px;
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+}
+
+
+
+.coluna{
+  display: inline-flex;
+  margin-left: 10px;
+ 
+ 
+  
+}
+
+@media (max-width: 768px) {
+  nav{
+    width: 30vw;
+  }
+  article{
+    width: 70vw;
+  }
+  .cabecalho{
+    width: 100%;
+    min-width: unset;
+  }
+  
+  
+}
+
+
+@media (max-width: 425px) {
+  nav,
+  article
+  .cabecalho{
+    width: 100%;
+    min-width: 320px;
+  }
+  
+  
+}
+
+
+
