@@ -149,3 +149,11 @@ footer small{
     font-size: 80%;
     display: block;
 }
+
+@media (max-width: 425px){
+    section nav,
+    section article{
+        width: 100%;
+    
+}
+}
